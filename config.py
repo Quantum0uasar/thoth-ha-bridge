@@ -3,9 +3,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# How to get your token:
-#   HA → Profile (bottom-left) → Long-Lived Access Tokens → Create Token
-
 HA_URL   = os.environ.get("HA_URL", "http://homeassistant.local:8123")
 HA_TOKEN = os.environ.get("HA_TOKEN")
 
